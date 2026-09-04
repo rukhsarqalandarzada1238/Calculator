@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('image/WhatsApp Image 2026-09-04 at 5.44.15 AM.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.793);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  box-shadow: 0 8px 6px rgba(0,0,0,0.2);
+}
+
+nav h1 {
+  color: orange;
+  margin: 0;
+  font-size: 22px;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  color: orange;
+}
+.container {
+  margin: 60px auto;
+  padding: 30px;
+  max-width: 900px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  color: white; 
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+p {
+  color: black;
+  line-height: 1.6;
+  font-size: 15px;
+}
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links {
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  .nav-links a {
+    margin: 10px;
+    font-size: 14px;
+  }
+
+  .container {
+    margin: 40px 20px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav h1 {
+    font-size: 18px;
+  }
+
+  .nav-links a {
+    font-size: 12px;
+    margin: 8px;
+  }
+
+  .container {
+    margin: 30px 10px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+}
